@@ -16,7 +16,7 @@ Set `API_PORT` environment variable to set the port for the app. It defaults to 
 
 ## Adding images
 
-Copy the images in the `images` directory inside the `dist` directory. For docker containers you can mount `/app/images` to the host or you can drop your images there by other means.
+Copy the images in the `images` directory inside the `dist` directory. For docker containers you can mount `/app/images` to the host or you can drop your images there by other means. I included some images of my cat in the `seed-images` to use while testing the service.
 
 ## Running the project
 
