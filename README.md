@@ -42,3 +42,19 @@ Aditionally you can add the `-v` flag to mount to an host directory for easy ima
 ## Running tests
 
     $ npm run test
+
+## Usage example
+
+Start the service and the exposed endpoints are `http://localhost:3000/image/:image-name?size=widthxheight` and `http://localhost:300/stats`. Drop the images (you can use example images from `seed-images`) in `dist/images` or in the mounted folder.
+
+```
+curl http://localhost:3000/stats
+```
+
+```
+curl http://localhost:3000/image/img-01.jpg
+```
+
+```
+curl http://localhost:3000/image/img-01.jpg?size=700x700
+```
